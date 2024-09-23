@@ -70,8 +70,7 @@ endmodule
 
 **RTL Schematic**
 
-![Uploading exp 4i.jpg…]()
-
+![exp 4i](https://github.com/user-attachments/assets/14bc4733-c669-416a-a316-a485088de184)
 
 **Output Timing Waveform**
 
