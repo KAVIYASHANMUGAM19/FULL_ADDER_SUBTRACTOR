@@ -43,31 +43,19 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
-
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
-
+```
 module exp4(a,b,c,sum,carry,BO,DIFF);
-
 input a,b,n;
-
 output sum,carry,BO,DIFF; 
-
 wire sum,carry,DIFF,BO;
-
 assign sum=a^b^c;
-
 assign carry=(a&b)|(a&c)|(b&c);
-
 assign DIFF=a^b^c;
-
 assign BO=(~a&b)|(~a&c)|(b&c);
-
 wire a0;
-
 not (a0,a);
-
 endmodule
-
+```
 **RTL Schematic**
 
 ![exp 4i](https://github.com/user-attachments/assets/14bc4733-c669-416a-a316-a485088de184)
